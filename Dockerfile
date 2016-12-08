@@ -3,7 +3,7 @@ MAINTAINER https://github.com/PengBAI
 
 ENV BOOTSWATCH_VERSION 0.4.0
 RUN pip install mkdocs && \
-    apk add tar
+    apk add --upgrade tar
 RUN mkdir /workspace
 WORKDIR /workspace
 
