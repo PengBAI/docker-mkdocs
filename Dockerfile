@@ -11,6 +11,7 @@ WORKDIR /workspace
 RUN curl -o mkdocs-bootswatch.tar.gz -SL "https://github.com/mkdocs/mkdocs-bootswatch/archive/$BOOTSWATCH_VERSION.tar.gz" && \
     tar -xzf mkdocs-bootswatch.tar.gz --strip-components=1 -C . && \
     rm mkdocs-bootswatch.tar.gz
+COPY mkdocs.yml ./mkdocs.yml
 
 EXPOSE 8000
 

@@ -1,0 +1,18 @@
+site_name: MkDocs Bootswatch Themes
+site_url: https://0.0.0.0:8000
+site_description: MkDocs Bootswatch Themes
+site_author: Tom Christie & Dougal Matthews
+dev_addr: 0.0.0.0:8000
+
+repo_url: https://github.com/mkdocs/mkdocs-bootswatch
+
+copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
+
+theme_dir: mkdocs_bootswatch/flatly
+
+pages:
+    - Home: 'index.md'
+
+markdown_extensions:
+    - toc:
+        permalink: '#'
