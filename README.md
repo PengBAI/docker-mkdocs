@@ -6,7 +6,7 @@ Python 3.5 on Alpine
 [MkDocs](http://www.mkdocs.org/) simple static website generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
 ## Description
-Theme flatly of [Bootswatch](http://mkdocs.github.io/mkdocs-bootswatch/) is used as website theme by default.
+Theme flatly of [Bootswatch](http://mkdocs.github.io/mkdocs-bootswatch/) is used as website theme by default in image. You can change to your prefer theme in list of Bootswatch easily by modify the ```theme_dir:``` in mkdocs.yml, ex: ```theme_dir: mkdocs_bootswatch/amelia``` to use amelia theme. 
 
 Run container:
 ```
