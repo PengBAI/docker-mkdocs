@@ -3,7 +3,7 @@ MAINTAINER https://github.com/PengBAI
 
 ENV BOOTSWATCH_VERSION 1.0
 RUN apk --no-cache add tar curl lftp ca-certificates openssh && \
-    pip install mkdocs && pip install mkdocs-material
+    pip install mkdocs mkdocs-material
 
 RUN mkdir /workspace
 WORKDIR /workspace
