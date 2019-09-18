@@ -1,5 +1,5 @@
 # docker-mkdocs
-Python 3.5 on Alpine
+Python 3.6 on Alpine
 
 [![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/pengbai/docker-mkdocs/)
 
