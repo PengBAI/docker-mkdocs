@@ -10,7 +10,7 @@ copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom 
 
 theme: flatly
 
-pages:
+nav:
     - Home: 'index.md'
 
 markdown_extensions:
