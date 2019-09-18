@@ -13,7 +13,7 @@ Run container:
 docker run -d -p 8000:8000 pengbai/docker-mkdocs
 ```
 
-Project config file (mkdocs.yml, /theme, /docs) is under path /workspace in image. Use your own documentation to generat your website: 
+Project config file (mkdocs.yml, theme, docs) is under path /workspace in image. Use your own documentation to generat your website: 
 ```
 docker run -d -p 8000:8000 -v /local-workspace:/workspace pengbai/docker-mkdocs
 ```
