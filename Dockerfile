@@ -8,6 +8,7 @@ RUN mkdir /workspace
 WORKDIR /workspace
 
 COPY mkdocs.yml ./mkdocs.yml
+COPY docs ./docs
 
 EXPOSE 8000
 
