@@ -1,7 +1,7 @@
-FROM python:3.5-alpine
+FROM python:3.6.9-alpine
 MAINTAINER https://github.com/PengBAI
 
-ENV BOOTSWATCH_VERSION 0.4.0
+ENV BOOTSWATCH_VERSION 1.0
 RUN apk --no-cache add tar curl lftp ca-certificates openssh && \
     pip install mkdocs && pip install mkdocs-material
 
